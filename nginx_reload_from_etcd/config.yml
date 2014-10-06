@@ -1,0 +1,14 @@
+etcd:
+  uri: http://etcd:4001
+  prefix: myapp
+
+watchers:
+  upstream:
+    watch:
+    - upstream
+    context:
+    - upstream
+    templates:
+    - src: /etc/sentinel/nginx.site.tpl
+      dest: /etc/nginx/conf.d/default.conf 
+    command: /bin/nginx-reload.sh
