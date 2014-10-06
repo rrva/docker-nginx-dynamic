@@ -1,7 +1,7 @@
 Docker nginx+webapp with dynamic nginx reconfig
 ==========
 
-Based on brianketelsen.com/2014/02/25/using-nginx-confd-and-docker-for-zero-downtime-web-updates/
+Based on http://brianketelsen.com/2014/02/25/using-nginx-confd-and-docker-for-zero-downtime-web-updates/
 
 Uses https://github.com/BlueDragonX/sentinel 
 
