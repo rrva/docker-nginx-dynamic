@@ -6,6 +6,7 @@ Based on brianketelsen.com/2014/02/25/using-nginx-confd-and-docker-for-zero-down
 Uses https://github.com/BlueDragonX/sentinel 
 
 Publishes all docker containers exposing 8080 to etcd key /myapp/upstream 
+
 Sentinel watches etcd key /myapp/upstream and updates nginx config on change
 
           +---+sentinel                  
